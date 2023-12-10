@@ -115,7 +115,16 @@ label{
 }
   
 
-@media print { body { -webkit-print-color-adjust: exact; } }
+@media print {
+    body {
+      -webkit-print-color-adjust: exact; /* Chrome, Safari, newer versions of Opera, and iOS Safari */
+      accent-color: exact; /* Standard property without prefix */
+      print-color-adjust: exact; /* Future standard */
+    }
+  }
+
+
+/*@media print { body { -webkit-print-color-adjust: exact; } }*/
 
 
 /*exclude some things to be printed*/
