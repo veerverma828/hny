@@ -137,5 +137,8 @@ label{
     .navigation-bar{
         display: none;
     }
+    .hideupd{
+        display: none;
+    }
 
 }
