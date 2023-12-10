@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+
+.resume {
+    width: 80%;
+    margin: auto;
+    color: #333;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0077cc;
+    color: white;
+    padding: 20px;
+}
+
+.name-section h1 {
+    margin: 0;
+}
+
+.photo-section img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.section {
+    margin: 20px 0;
+}
+
+.section h2 {
+    background: #0077cc;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+.education-details, .work-experience-details {
+    padding: 20px;
+    background: #f0f0f0;
+}
+
+.education-entry, .work-experience-entry {
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+label{
+    display: block;
+    color: #ffffff;
+    cursor: pointer;
+    
+}
+.inputpic{
+    display: none;
+}
+
+/*button*/
+
+
+.navigation-bar {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .back-button {
+    background-color: #f2f2f2;
+    border: none;
+    color: #333;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 10px;
+  }
+  
+  .nav-links a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  .nav-links a:hover {
+    background-color: #ddd;
+  }
+
+.print-button{
+    padding: 10px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+  
+
+@media print { body { -webkit-print-color-adjust: exact; } }
+
+
+/*exclude some things to be printed*/
+
+@media print{
+
+    .print-button{
+        display: none;
+    }
+    .navigation-bar{
+        display: none;
+    }
+
+}
