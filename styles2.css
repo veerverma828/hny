@@ -64,6 +64,11 @@ label{
     display: none;
 }
 
+.Years{
+    width: 2%;
+    
+}
+
 /*button*/
 
 
@@ -143,9 +148,15 @@ label{
 
 }
 
-.hidphone{
+.hideitw{
       border: none;
       /*outline: none;*/
       background: transparent;
       color: #ffffff; /* text color */
+}
+.hideitb{
+    border: none;
+      /*outline: none;*/
+      background: transparent;
+      color: #000000; /* text color */
 }
