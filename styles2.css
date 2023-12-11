@@ -142,3 +142,10 @@ label{
     }
 
 }
+
+.hidphone{
+      border: none;
+      /*outline: none;*/
+      background: transparent;
+      color: #ffffff; /* text color */
+}
