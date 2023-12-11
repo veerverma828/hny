@@ -41,12 +41,14 @@ body {
     margin: 0;
 }
 
-.education-details, .work-experience-details {
+.education-details,
+.work-experience-details {
     padding: 20px;
     background: #f0f0f0;
 }
 
-.education-entry, .work-experience-entry {
+.education-entry,
+.work-experience-entry {
     margin-bottom: 10px;
 }
 
@@ -54,19 +56,20 @@ h2 {
     margin-top: 0;
 }
 
-label{
+label {
     display: block;
     color: #ffffff;
     cursor: pointer;
-    
+
 }
-.inputpic{
+
+.inputpic {
     display: none;
 }
 
-.Years{
+.Years {
     width: 2%;
-    
+
 }
 
 /*button*/
@@ -78,9 +81,9 @@ label{
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-  }
-  
-  .back-button {
+}
+
+.back-button {
     background-color: #f2f2f2;
     border: none;
     color: #333;
@@ -89,28 +92,28 @@ label{
     text-decoration: none;
     font-size: 16px;
     cursor: pointer;
-  }
-  
-  .nav-links {
+}
+
+.nav-links {
     list-style: none;
     display: flex;
-  }
-  
-  .nav-links li {
+}
+
+.nav-links li {
     margin-right: 10px;
-  }
-  
-  .nav-links a {
+}
+
+.nav-links a {
     color: #333;
     text-decoration: none;
     padding: 5px;
-  }
-  
-  .nav-links a:hover {
-    background-color: #ddd;
-  }
+}
 
-.print-button{
+.nav-links a:hover {
+    background-color: #ddd;
+}
+
+.print-button {
     padding: 10px;
     font-size: 14px;
     background-color: #007bff;
@@ -118,15 +121,18 @@ label{
     border: none;
     cursor: pointer;
 }
-  
+
 
 @media print {
     body {
-      -webkit-print-color-adjust: exact; /* Chrome, Safari, newer versions of Opera, and iOS Safari */
-      accent-color: exact; /* Standard property without prefix */
-      print-color-adjust: exact; /* Future standard */
+        -webkit-print-color-adjust: exact;
+        /* Chrome, Safari, newer versions of Opera, and iOS Safari */
+        accent-color: exact;
+        /* Standard property without prefix */
+        print-color-adjust: exact;
+        /* Future standard */
     }
-  }
+}
 
 
 /*@media print { body { -webkit-print-color-adjust: exact; } }*/
@@ -134,29 +140,19 @@ label{
 
 /*exclude some things to be printed*/
 
-@media print{
+@media print {
 
-    .print-button{
+    .print-button {
         display: none;
     }
-    .navigation-bar{
+
+    .navigation-bar {
         display: none;
     }
-    .hideupd{
+
+    .hideupd {
         display: none;
     }
 
 }
 
-.hideitw{
-      border: none;
-      /*outline: none;*/
-      background: transparent;
-      color: #ffffff; /* text color */
-}
-.hideitb{
-    border: none;
-      /*outline: none;*/
-      background: transparent;
-      color: #000000; /* text color */
-}
