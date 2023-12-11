@@ -7,7 +7,7 @@ inputfile.onchange=function(){
 
 function goToFirstPage() {
     // Redirect to the first page
-    window.location.href = 'index.html';
+    window.location.href = '1st.html';
 }
 
 //prints page
