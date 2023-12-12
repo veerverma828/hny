@@ -8,6 +8,3 @@ function goToFirstPage() {
 function printPage() {
     window.print();
 }
-
-
-
