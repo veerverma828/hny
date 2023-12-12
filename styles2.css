@@ -52,6 +52,17 @@ body {
     margin-bottom: 10px;
 }
 
+.language-detail{
+    padding: 10px;
+    background: #f0f0f0;
+    
+}
+
+.hobbies-details{
+    padding: 10px;
+    background: #f0f0f0;
+}
+
 h2 {
     margin-top: 0;
 }
@@ -153,6 +164,25 @@ label {
     .hideupd {
         display: none;
     }
+    /*this is dark mode button*/
+    #toggleDarkMode{
+        display: none;
+    }
+    .hide
+    {
+        display: none;
+    }
+
+    
 
 }
+
+
+
+
+
+
+
+
+
 

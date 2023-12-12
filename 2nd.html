@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume 1</title>
     <link rel="stylesheet" href="styles2.css">
+    <link rel="stylesheet" href="dark.css">
 
 </head>
 
@@ -50,8 +51,13 @@
         </div>
         <div class="section">
             <h2>LANGUAGES</h2>
-            <p contenteditable="true">Enter Languages</p>
-            <!-- ... -->
+            <div class="language-detail">
+                <div class="language-detail-ex">
+                    <p contenteditable="true">Enter Languages</p>
+                </div>
+            </div>
+
+
         </div>
         <div class="section">
             <h2>WORK EXPERIENCE</h2>
@@ -66,14 +72,23 @@
                 <!-- ... -->
             </div>
         </div>
+        <!-- To check why without making sub division entry the shading is not coming-->
         <div class="section">
             <h2>HOBBIES</h2>
-            <p contenteditable="true">Sports, passions projects, xxxxxxx xxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+            <div class="hobbies-details">
+                <div class="hobbies-details-entry">
+                    <p contenteditable="true">Sports, passions projects, xxxxxxx xxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                </div>
+            </div>
         </div>
 
         <button onclick="printPage()" class="print-button">Print Page</button>
 
         <script src="script2.js"></script>
+        <script src="dark.js"></script>
+        <p class="hide">Experimental feature</p>
+        <button id="toggleDarkMode">Dark Mode</button>
 </body>
+
 
 </html>
